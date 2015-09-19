@@ -1,0 +1,412 @@
+Error starting at line : 1 in command -
+INSERT INTO CUSTOMER (CustFirstName, CustLastName, CustCity, CustState, CustZip, CustBal)VALUES(1,'C0954327','Sheri','Gordon','Littleton','CO','80129-5543','$230.00')
+Error at Command Line : 1 Column : 13
+Error report -
+SQL Error: ORA-00913: too many values
+00913. 00000 -  "too many values"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO CUSTOMER (CUSTNO, CUSTFIRSTNAME, CUSTLASTNAME, CUSTCITY, CUSTSTATE, CUSTZIP, CUSTBAL)VALUES(1,'C0954327','Sheri','Gordon','Littleton','CO','80129-5543','$230.00')
+Error at Command Line : 1 Column : 13
+Error report -
+SQL Error: ORA-00913: too many values
+00913. 00000 -  "too many values"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO CUSTOMER (CUSTNO, CUSTFIRSTNAME, CUSTLASTNAME, CUSTCITY, CUSTSTATE, CUSTZIP, CUSTBAL)VALUES('C0954327','Sheri','Gordon','Littleton','CO','80129-5543','$230.00')
+Error report -
+SQL Error: ORA-01722: invalid number
+01722. 00000 -  "invalid number"
+*Cause:    The specified number was invalid.
+*Action:   Specify a valid number.
+Error starting at line : 1 in command -
+INSERT INTO CUSTOMER (CUSTNO, CUSTFIRSTNAME, CUSTLASTNAME, CUSTCITY, CUSTSTATE, CUSTZIP, CUSTBAL)VALUES(1,'C0954327','Sheri','Gordon','Littleton','CO','80129-5543','$230.00')
+Error at Command Line : 1 Column : 13
+Error report -
+SQL Error: ORA-00913: too many values
+00913. 00000 -  "too many values"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO CUSTOMER (CUSTNO, CUSTFIRSTNAME, CUSTLASTNAME, CUSTCITY, CUSTSTATE, CUSTZIP, CUSTBAL)VALUES('C0954327','Sheri','Gordon','Littleton','CO','80129-5543','$230.00')
+Error report -
+SQL Error: ORA-01722: invalid number
+01722. 00000 -  "invalid number"
+*Cause:    The specified number was invalid.
+*Action:   Specify a valid number.
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+Error starting at line : 1 in command -
+INSERT INTO EMPLOYEE (EMPNO, EMPFIRSTNAME, EMPLASTNAME, EMPPHONE, EMPEMAIL)VALUES('E93457711','Colin','White','(303) 221-4453','CWhite@bigco.com')
+Error report -
+SQL Error: ORA-12899: value too large for column "DMURPHY"."EMPLOYEE"."EMPNO" (actual: 9, maximum: 8)
+12899. 00000 -  "value too large for column %s (actual: %s, maximum: %s)"
+*Cause:    An attempt was made to insert or update a column with a value
+           which is too wide for the width of the destination column.
+           The name of the column is given, along with the actual width
+           of the value, and the maximum allowed width of the column.
+           Note that widths are reported in characters if character length
+           semantics are in effect for the column, otherwise widths are
+           reported in bytes.
+*Action:   Examine the SQL statement for correctness.  Check source
+           and destination column data types.
+           Either make the destination column wider, or use a subset
+           of the source column (i.e. use substring).
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('01116324',TO_DATE('23/01/13'),'C0954327','E8544399')
+Error report -
+SQL Error: ORA-01843: not a valid month
+01843. 00000 -  "not a valid month"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('01116324',TO_DATE('23/01/13'),'C0954327','E8544399')
+Error report -
+SQL Error: ORA-01843: not a valid month
+01843. 00000 -  "not a valid month"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('01116324',TO_DATE('23/01/13'),'C0954327','E8544399')
+Error report -
+SQL Error: ORA-01843: not a valid month
+01843. 00000 -  "not a valid month"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('01116324',TO_DATE('23/01/2013'),'C0954327','E8544399')
+Error report -
+SQL Error: ORA-01843: not a valid month
+01843. 00000 -  "not a valid month"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O1116324',TO_DATE('23/01/2013'),'C0954327','E8544399')
+Error report -
+SQL Error: ORA-01843: not a valid month
+01843. 00000 -  "not a valid month"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O1116324',TO_DATE(23/01/2013),'C0954327','E8544399')
+Error report -
+SQL Error: ORA-01858: a non-numeric character was found where a numeric was expected
+01858. 00000 -  "a non-numeric character was found where a numeric was expected"
+*Cause:    The input data to be converted using a date format model was
+           incorrect.  The input data did not contain a number where a number was
+           required by the format model.
+*Action:   Fix the input data or the date format model to make sure the
+           elements match in number and type.  Then retry the operation.
+1 row inserted.
+
+1 row inserted.
+
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398','')
+Error report -
+SQL Error: ORA-01400: cannot insert NULL into ("DMURPHY"."ORDERTBL"."EMPNO")
+01400. 00000 -  "cannot insert NULL into (%s)"
+*Cause:    An attempt was made to insert NULL into previously listed objects.
+*Action:   These objects cannot accept NULL values.
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398')
+Error at Command Line : 1 Column : 53
+Error report -
+SQL Error: ORA-00947: not enough values
+00947. 00000 -  "not enough values"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398',ORDNO)
+Error at Command Line : 1 Column : 120
+Error report -
+SQL Error: ORA-00984: column not allowed here
+00984. 00000 -  "column not allowed here"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398', ,)
+Error at Command Line : 1 Column : 121
+Error report -
+SQL Error: ORA-00936: missing expression
+00936. 00000 -  "missing expression"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398','')
+Error report -
+SQL Error: ORA-01400: cannot insert NULL into ("DMURPHY"."ORDERTBL"."EMPNO")
+01400. 00000 -  "cannot insert NULL into (%s)"
+*Cause:    An attempt was made to insert NULL into previously listed objects.
+*Action:   These objects cannot accept NULL values.
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398',' ')
+Error report -
+SQL Error: ORA-02291: integrity constraint (DMURPHY.ORDERTBL_EMPLOYEE_FK) violated - parent key not found
+02291. 00000 - "integrity constraint (%s.%s) violated - parent key not found"
+*Cause:    A foreign key value has no matching primary key value.
+*Action:   Delete the foreign key or add a matching primary key.
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398',' );
+Error at Command Line : 1 Column : 120
+Error report -
+SQL Error: ORA-01756: quoted string not properly terminated
+01756. 00000 -  "quoted string not properly terminated"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398')
+Error at Command Line : 1 Column : 53
+Error report -
+SQL Error: ORA-00947: not enough values
+00947. 00000 -  "not enough values"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398')
+Error at Command Line : 1 Column : 53
+Error report -
+SQL Error: ORA-00947: not enough values
+00947. 00000 -  "not enough values"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398', NULL)
+Error report -
+SQL Error: ORA-01400: cannot insert NULL into ("DMURPHY"."ORDERTBL"."EMPNO")
+01400. 00000 -  "cannot insert NULL into (%s)"
+*Cause:    An attempt was made to insert NULL into previously listed objects.
+*Action:   These objects cannot accept NULL values.
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398')
+Error report -
+SQL Error: ORA-01400: cannot insert NULL into ("DMURPHY"."ORDERTBL"."EMPNO")
+01400. 00000 -  "cannot insert NULL into (%s)"
+*Cause:    An attempt was made to insert NULL into previously listed objects.
+*Action:   These objects cannot accept NULL values.
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398')
+Error report -
+SQL Error: ORA-01400: cannot insert NULL into ("DMURPHY"."ORDERTBL"."EMPNO")
+01400. 00000 -  "cannot insert NULL into (%s)"
+*Cause:    An attempt was made to insert NULL into previously listed objects.
+*Action:   These objects cannot accept NULL values.
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, ORDNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398', NULL)
+Error at Command Line : 1 Column : 23
+Error report -
+SQL Error: ORA-00957: duplicate column name
+00957. 00000 -  "duplicate column name"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, ORDNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398', (null))
+Error at Command Line : 1 Column : 23
+Error report -
+SQL Error: ORA-00957: duplicate column name
+00957. 00000 -  "duplicate column name"
+*Cause:    
+*Action:
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398', (null))
+Error report -
+SQL Error: ORA-01400: cannot insert NULL into ("DMURPHY"."ORDERTBL"."EMPNO")
+01400. 00000 -  "cannot insert NULL into (%s)"
+*Cause:    An attempt was made to insert NULL into previously listed objects.
+*Action:   These objects cannot accept NULL values.
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398', '')
+Error report -
+SQL Error: ORA-01400: cannot insert NULL into ("DMURPHY"."ORDERTBL"."EMPNO")
+01400. 00000 -  "cannot insert NULL into (%s)"
+*Cause:    An attempt was made to insert NULL into previously listed objects.
+*Action:   These objects cannot accept NULL values.
+Error starting at line : 1 in command -
+INSERT INTO ORDERTBL (ORDNO, ORDDATE, CUSTNO, EMPNO)VALUES('O3331222',TO_DATE('13/JANUARY/2013','DD/MM/YY'),'C1010398', '')
+Error report -
+SQL Error: ORA-01400: cannot insert NULL into ("DMURPHY"."ORDERTBL"."EMPNO")
+01400. 00000 -  "cannot insert NULL into (%s)"
+*Cause:    An attempt was made to insert NULL into previously listed objects.
+*Action:   These objects cannot accept NULL values.
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
